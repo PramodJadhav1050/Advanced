@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+   <div id="p1">
+		
+	</div>
+
+	<div id="p2">
+		
+	</div>
+
+
+	<script>
+	    var names=[2,3,5,7,9,6,1,4];
+
+		names.push(21);
+        names.unshift(11); 
+        names.unshift(12);
+        names.pop(); 
+        names.shift();  
+       // names.splice(1, 0,15,18,19);
+
+        //var newlist = names.slice(2, 6);  
+        names.sort();
+        //names.reverse();
+        document.getElementById("p1").innerHTML = names;
+        document.getElementById("p2").innerHTML = newlist;
+
+
+
+	</script>
+</body>
+</html>
